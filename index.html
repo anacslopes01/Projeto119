@@ -1,0 +1,31 @@
+<html>
+<head>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <script src="//unpkg.com/ml5@0.4.3/dist/ml5.min.js" target="_blank"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.min.js"></script>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
+    <meta charset="UTF-8">
+    <title>Desenho Rápido</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <center>
+        <h1>Desenho Rápido</h1>
+        <p id="tagAviao"></p>
+        <p id="precisao">Precisão</p>
+        <p id="esbocoDesenho">Esboço a Ser Desenhado</p>
+        <button class="btn btn-danger" onclick="updateCanvas()">Limpar Canvas</button>
+    </center>
+    <span id="pontuacao">Pontuação: </span>
+    <br>
+    <span id="tempo">Tempo: </span>
+    <script src="main.js"></script>
+</body>
+</html>
